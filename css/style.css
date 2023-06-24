@@ -63,13 +63,6 @@ body {
 .our-team-list {
   background-color: var(--white-color);
 }
-.text-link {
-  text-decoration: underline;
-  font-size: 12px;
-  line-height: 1.333;
-  letter-spacing: 0.04em;
-}
-
 .logo-text {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -136,17 +129,14 @@ body {
 .nav-address .list .link:hover,
 .nav-address .list .link:focus {
   color: var(--ocean-color);
-  text-decoration: underline;
 }
 .list .link:hover,
 .link:focus {
   color: var(--ocean-color);
-  text-decoration: underline;
 }
 .address-text:hover,
 .address-text:focus {
   color: var(--ocean-color);
-  text-decoration: underline;
 }
 .basement {
   background-color: var(--gray-color);
