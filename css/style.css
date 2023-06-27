@@ -19,13 +19,62 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/*----- INDEX.HTML -----*/
+/*----- Header -----*/
+.menu-nav {
+}
+.menu-nav-item {
+}
+.link {
+  text-decoration: none;
+}
+.logo-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris-color);
+}
+.span-logo {
+  color: var(--navyblue-color);
+}
+.list {
+  list-style: none;
+  color: var(--slate-color);
+}
+.nav-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navyblue-color);
+}
 .nav-address {
   font-style: normal;
   color: var(--slate-color);
 }
-.address-link {
-  text-decoration: none;
+.nav-address-item {
+}
+.nav-address .list a {
   color: var(--slate-color);
+}
+
+.nav-address .list .link:hover,
+.nav-address .list .link:focus {
+  color: var(--ocean-color);
+}
+.list .link:hover,
+.link:focus {
+  color: var(--ocean-color);
+}
+
+/*----- Section Solution -----*/
+.section-solution {
+  background-color: var(--navyblue-color);
+  color: var(--white-color);
 }
 .title-first {
   font-weight: 700;
@@ -34,6 +83,29 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white-color);
+}
+.solution-button {
+  color: var(--white-color);
+  background-color: var(--iris-color);
+  cursor: pointer;
+}
+.solution-button:hover,
+.solution-button:focus {
+  background-color: var(--ocean-color);
+  color: var(--white-color);
+}
+.text-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+/*----- Section Preference -----*/
+.section-preference {
+}
+.section-preference-item {
 }
 .title-sec {
   font-weight: 700;
@@ -52,45 +124,34 @@ body {
   letter-spacing: 0.02em;
   color: var(--gray-color);
 }
-
-.section-solution {
-  background-color: var(--navyblue-color);
-  color: var(--white-color);
+.list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
 }
+
+/*----- Section Portfolio -----*/
+.section-portfolio {
+}
+.section-portfolio-item {
+}
+
+/*----- Section our team -----*/
 .section-our-team {
   background-color: var(--cloud-color);
 }
-.our-team-list {
+.section-our-team-item {
   background-color: var(--white-color);
 }
-.logo-text {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--iris-color);
+
+/*----- PORTFOLIO.HTML -----*/
+/*----- Section Filters -----*/
+.section-filters {
 }
-.span-logo {
-  color: var(--navyblue-color);
+.section-filters-title {
 }
-.text-button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-.solution-button {
-  color: var(--white-color);
-  background-color: var(--iris-color);
-  cursor: pointer;
-}
-.solution-button:hover,
-.solution-button:focus {
-  background-color: var(--ocean-color);
-  color: var(--white-color);
+.section-filters-item {
 }
 .filter-button {
   color: var(--iris-color);
@@ -102,44 +163,16 @@ body {
   background-color: var(--ocean-color);
   color: var(--white-color);
 }
+.section-filters-portfolio-item {
+}
 
-.list {
-  list-style: none;
-  color: var(--slate-color);
-}
-.list-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate-color);
-}
-.link {
-  text-decoration: none;
-}
-.nav-address .list a {
-  color: var(--slate-color);
-}
-.nav-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--navyblue-color);
-}
-.nav-address .list .link:hover,
-.nav-address .list .link:focus {
-  color: var(--ocean-color);
-}
-.list .link:hover,
-.link:focus {
-  color: var(--ocean-color);
-}
-.address-text:hover,
-.address-text:focus {
-  color: var(--ocean-color);
-}
+
+/*----- Footer -----*/
 .basement {
   background-color: var(--gray-color);
+}
+.footer-span-logo {
+  color: var(--cloud-color);
 }
 .footer-text {
   color: var(--cloud-color);
@@ -147,7 +180,4 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.footer-span-logo {
-  color: var(--cloud-color);
 }
