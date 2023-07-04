@@ -92,6 +92,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris-color);
+}
+.header-container .logo-text {
   margin-right: 76px;
 }
 .basement .logo-text {
