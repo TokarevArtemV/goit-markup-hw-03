@@ -93,6 +93,8 @@ img {
   text-transform: uppercase;
   color: var(--iris-color);
   margin-right: 76px;
+}
+.basement .logo-text {
   margin-bottom: 16px;
 }
 .span-logo {
