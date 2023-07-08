@@ -193,8 +193,7 @@ img {
   margin: 0 auto;
 }
 .section-preference-item {
-  max-width: calc(100% - (24 * 3) / 4);
-  width: 100%;
+  max-width: calc(100% - (24px * 3) / 4);
 }
 .title-sec {
   font-weight: 700;
@@ -230,8 +229,7 @@ img {
   gap: 24px;
 }
 .section-portfolio-item {
-  max-width: calc(100% - (24 * 2) / 3);
-  width: 100%;
+  max-width: calc(100% - (24px * 2) / 3);
 }
 
 /*----- Section our team -----*/
@@ -244,8 +242,8 @@ img {
   margin-bottom: 72px;
 }
 .section-our-team-item {
-  max-width: calc(100% - (24 * 3) / 4);
-  width: 100%;
+  max-width: calc(100% - (24px * 3) / 4);
+
   background-color: var(--white-color);
   border-radius: 0px 0px 4px 4px;
 }
@@ -287,14 +285,13 @@ img {
   color: var(--white-color);
 }
 .filters-portfolio-list {
-  max-width: calc(100% - (24 * 2) / 3);
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-start;
-  align-items: flex-start;
   column-gap: 24px;
   row-gap: 48px;
+}
+.section-filters-portfolio-item {
+  max-width: calc(100% - (24px * 2) / 3);
 }
 .section-filters-portfolio-item-container {
   border: 1px solid var(--cornflower-color);
